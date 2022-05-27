@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Roboto', sans-serif;*/
+
+h1,h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+p,ul,li,a{font-family: 'Roboto', sans-serif;}
+
+/*header starts */
+header {
+    overflow: hidden;
+    padding: 50px 60px;
+}
+
+.text {
+    /* width: 78%; */
+    float: left;
+}
+
+.text h3 {}
+
+.menu {
+    /* width: 100%; */
+}
+
+.menu p {
+    float: right;
+    text-align: right;
+}
+
+/*header ends */
+
+/* banner starts*/
+.slider_banner {}
+
+.banner {
+    width: 90%;
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.dots {
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.dots img {
+    margin-top: 20px;
+}
+
+/* banner ends*/
+
+/*projects starts*/
+.project {
+    overflow: hidden;
+    width: 90%;
+
+    margin: 50px auto;
+}
+
+.project_txt {
+
+    float: left;
+}
+
+.project_txt h1 {}
+
+.project_txt p {
+
+    margin: 30px 0px 0px 84px;
+
+    font-size: 20px;
+}
+
+.project_img {
+
+    width: 60%;
+
+    float: right;
+}
+
+.project_img img {
+
+    width: 100%;
+}
+
+/*projects ends*/
+
+/* task starts*/
+.task {
+    width: 90%;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.project_date {
+
+    float: left;
+}
+
+.project_date h1 {}
+
+.project_date p {
+    margin: 30px 0px 0px 15px;
+    font-size: 20px;
+}
+
+.challenge {
+
+    width: 60%;
+
+    float: right;
+}
+
+.challenge h1 {}
+
+.challenge p {
+    margin: 30px 0px 0px 15px;
+    font-size: 20px;
+}
+
+/* task ends*/
+
+/*menu starts*/
+.menu_img {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 {
+    width: 32%;
+}
+
+.menu1 img {
+    width: 100%;
+}
+
+.menu2 {
+    width: 32%;
+}
+
+.menu2 img {
+    width: 100%;
+}
+
+.menu3 {
+    width: 32%;
+}
+
+.menu3 img {
+    width: 100%;
+}
+
+/*menu ends*/
+
+/*role starts*/
+.role {
+    width: 90%;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.project_role {
+
+    float: left;
+}
+
+.project_role h1 {}
+
+.project_role p {
+    margin: 30px 0px 0px 15px;
+    font-size: 20px;
+}
+
+.approach {
+
+    width: 60%;
+
+    float: right;
+}
+
+.approach h1 {}
+
+.approach p {
+    margin: 30px 0px 0px 15px;
+    font-size: 20px;
+}
+
+/*role ends*/
+
+/*sample img starts*/
+.sample_img {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.div1 {
+    width: 49%;
+    float: left;
+}
+
+.div1 img {
+    width: 100%;
+}
+
+.div2 {
+    width: 49%;
+    float: right;
+}
+
+.div2 img {
+    width: 100%;
+}
+
+.div3 {
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+.div3 img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/*sample img ends*/
+
+/* button starts*/
+.work_bt {
+
+    padding: 100px;
+
+    text-align: center;
+}
+
+.work_bt button {
+    padding: 10px 15px;
+    /* font-size: 18px; */
+    background: transparent;
+    cursor: pointer;
+}
+
+/* button ends*/
+
+/*footer starts*/
+footer {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.contact {
+    width: 30%;
+    float: left;
+
+}
+
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+.contact a {
+
+    list-style: none;
+
+    text-decoration: none;
+
+    color: #000;
+}
+
+.links {
+    width: 30%;
+    float: left;
+}
+
+.links ul {
+
+    list-style: none;
+}
+
+.links ul li {
+
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+
+    text-decoration: none;
+
+    color: #000;
+
+}
+
+.nav {
+    width: 30%;
+    float: right;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin-bottom: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+
+    color: #000;
+}
